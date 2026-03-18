@@ -1,0 +1,14 @@
+[project]
+name = "hookwall"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "black>=26.3.1",
+    "discord>=2.3.2",
+    "fastapi[standard]>=0.135.1",
+    "httpx>=0.28.1",
+    "python-dotenv>=1.2.2",
+    "sqlmodel>=0.0.37",
+]
